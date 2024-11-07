@@ -1,0 +1,42 @@
+.navigation {
+    background-color: #c00;
+
+    color: white;
+    padding: 10px 20px;
+
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.nav-list {
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
